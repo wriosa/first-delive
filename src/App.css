@@ -1,0 +1,61 @@
+#root {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 5px 10px 18px grey;
+  width: auto;
+  /* height: 300px; */
+  padding: 2rem 2rem;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem;
+}
+
+button {
+  padding: 8px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  border: 0;
+  outline: 0;
+  box-shadow: 2px 2px 4px grey;
+  cursor: pointer;
+}
+button i{
+  color: white;
+  font-size: 20px;
+}
+
+.author {
+  text-align: end;
+  font-style: italic;
+  margin: 20px 0 6px;
+}
+
+.quote{
+  display: flex;
+}
+
+.quote i{
+  font-size: 50px;
+}
